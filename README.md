@@ -1,10 +1,10 @@
-# Lenix Suite
+# Commenix
 
-The All-in-one extension, AI commit message composer/generator
+The AI commit message composer/generator
 
 ## Features
 
-1. **Commit message composer**: Compose a git commit message in seconds based on the changes staged in the current git repository with AI.
+**Commit message composer**: Compose a git commit message in seconds based on the changes staged in the current git repository with AI.
 
 - Here is a preview of the extension and how it works:
   1. Generate a new commit
@@ -38,6 +38,6 @@ This extension contributes the following settings:
 
 ## For more information
 
-- [Lenix Contact Form](http://contact.lenix.dev/)
+- [Lenix Contact Form](http://contact.lenix.dev)
 
 **Enjoy!**
