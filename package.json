@@ -1,5 +1,5 @@
 {
-	"name": "commenix",
+	"name": "lenix",
 	"displayName": "Commenix",
 	"publisher": "Lenix",
 	"description": "Fast light weight AI commit message composer/generator",
@@ -24,7 +24,7 @@
 		"menus": {
 			"scm/title": [
 				{
-					"command": "commenix.composeCommit",
+					"command": "lenix.composeCommit",
 					"group": "navigation",
 					"when": "scmProvider == git"
 				}
@@ -32,22 +32,22 @@
 		},
 		"commands": [
 			{
-				"command": "commenix.composeCommit",
+				"command": "lenix.composeCommit",
 				"title": "Lenix: Compose Commit Message",
 				"icon": "$(edit-sparkle)"
 			},
 			{
-				"command": "commenix.settings",
+				"command": "lenix.settings",
 				"title": "Lenix: Open Settings"
 			}
 		],
 		"configuration": {
 			"properties": {
-				"commenix.apiKey": {
+				"lenix.apiKey": {
 					"type": "string",
 					"description": "API Key, control access: https://console.groq.com/keys"
 				},
-				"commenix.aiModel": {
+				"lenix.aiModel": {
 					"type": "string",
 					"default": "openai/gpt-oss-120b",
 					"enum": [
@@ -107,7 +107,7 @@
 		"check-types": "tsc --noEmit",
 		"lint": "eslint src",
 		"test": "vscode-test",
-		"bypasspublish": "vsce package --out commenix.vsix"
+		"bypasspublish": "vsce package --out lenix.vsix"
 	},
 	"devDependencies": {
 		"@types/mocha": "^10.0.10",
